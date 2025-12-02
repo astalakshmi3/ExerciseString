@@ -1,12 +1,15 @@
 START
-Choose a year.
-FOR month = 1 to 12
-      Create a YearMonth for this month.
-      PRINT the month name
-  FOR day = 1 to number of days in month
-          Create a LocalDate using year, month, day.
-          PRINT the date
+
+Set the year to 2018
+FOR each month from January to December
+ Print the month name and year
+Print the weekday header (Mon–Sun)
+ Find which day the month starts on (Monday, Tuesday, etc.)
+Print empty spaces until the correct start day
+   FOR each day in the month
+  Print the day number
+ When the week ends, start a new line
   END FOR
 
-END FOR
+  END FOR
 END
