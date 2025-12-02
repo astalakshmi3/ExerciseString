@@ -1,0 +1,12 @@
+START
+Choose a year.
+FOR month = 1 to 12
+      Create a YearMonth for this month.
+      PRINT the month name
+  FOR day = 1 to number of days in month
+          Create a LocalDate using year, month, day.
+          PRINT the date
+  END FOR
+
+END FOR
+END
