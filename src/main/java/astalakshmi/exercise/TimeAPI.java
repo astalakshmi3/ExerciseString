@@ -88,8 +88,8 @@ public class TimeAPI {
         LocalDateTime cur = LocalDateTime.now();
         LocalDate date4 = cur.toLocalDate();
         LocalTime time2 = cur.toLocalTime();
-        System.out.println(date4);
-        System.out.println(time2);
+        System.out.println("Ex16 :" + date4);
+        System.out.println("Ex 16:"  +time2);
 
     }
     // Simple Calculator for the year 2018.
@@ -116,7 +116,6 @@ public class TimeAPI {
                             System.out.println();
                         }
                     }
-
                     System.out.println("\n");
                 }
             }
